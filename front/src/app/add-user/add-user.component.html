@@ -1,0 +1,54 @@
+<H2>Add User</H2>
+<form #adduserForm="ngForm" (ngSubmit)="addUser(adduserForm)">
+<div >
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Nom</label>
+    <input type="string" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Enter Name">
+  </div>
+  <div class="form-group">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Prenom</label>
+    <input type="string" class="form-control" id="exampleInputFirstName" aria-describedby="emailHelp" placeholder="Enter FirstName">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Civilité</label>
+    <input type="string" class="form-control" id="exampleInputCiv" aria-describedby="CIVHelp" placeholder="Enter Gender">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Nbre Enfants</label>
+    <input type="number" class="form-control" id="exampleInputNbrChild" aria-describedby="NBChieldHelp" placeholder="Enter number of Chield">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Tel</label>
+    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="TelHelp" placeholder="Enter phone number">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">tel2</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="Tel2Help" placeholder="Enter mobile number">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Date Naisance</label>
+    <input type="date" class="form-control" id="exampleInputdateofbirth" placeholder="Date of birth">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Nbre Enfants</label>
+    <input type="number" class="form-control" id="exampleInputNbrChild" aria-describedby="NBChieldHelp" placeholder="Enter number of Chield">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputadresse">adresse</label>
+    <input type="string" class="form-control" id="exampleInputCiv" aria-describedby="adresseHelp" placeholder="Enter adresse">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputadresse">pays</label>
+    <input type="string" class="form-control" id="exampleInputCiv" aria-describedby="adresseHelp" placeholder="Enter country">
+  </div>
+
+
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
